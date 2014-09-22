@@ -24,5 +24,8 @@ How does this workaround work ?
 If this pattern is found, an "IF" is injected in the memory space of the vulnerable process.
 Once the process was protected, if a crafted BITMAP file is opened, a WARNING will appear on the screen and the process will be terminated.
 
+What Does this workaround prevent ?
+  This workaround prevents that your computer be owned by exploit/virus attacks that use as vector the "Embarcadero VCL Library's Stack/Heap Overflow" (CVE-2014-0993 and CVE-2014-0994).
+
 Licensing
   Embarcadero Workaround is released under FreeBSD license.
