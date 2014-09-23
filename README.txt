@@ -2,7 +2,7 @@ What is Embarcadero Workaround ?
   This is an unofficial "patch" for "Embarcadero VCL Library Stack/Heap Overflow" (CVE-2014-0993 and CVE-2014-0994).
 
 Which Software versions does this workaround support?
-  32-bit software compiled with Delphi and C++ Builder where the "VCL library" was included.
+  32-bit software compiled with Delphi and C++ Builder where the "VCL library" was included, as long as the library is statically linked into the main executable.
 
 Is it necessary to install this workaround to use?
   No instalation needed.
